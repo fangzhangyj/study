@@ -27,3 +27,5 @@ for epoch in  range(100):
         w.grad.data.zero_()
     print("progress:",epoch)
 print("predict(after training)",4,forward(4).item())
+
+# 正向是指损失函数，反向是指求梯度
